@@ -1,0 +1,46 @@
+body{
+  background-image: url(./images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header{
+  background: rgba(41,92,222,0.2);
+  box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+  backdrop-filter: blur(3.7px);
+  -webkit-backdrop-filter: blur(3.7px);
+  border-radius: 10px;
+  
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  border: none;
+  border-radius: 10px;
+  background-color: gray
+}
+button{
+  width: 100px;
+  height: 30px;
+  border-radius:10px;
+  border: none;
+  background-color: gray
+}
+
+div.card{
+  background: rgba(235,238,245,0.2);
+box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+backdrop-filter: blur(3.7px);
+-webkit-backdrop-filter: blur(3.7px);
+border-radius: 10px;
+color: black;
+
+}
+img{
+  width: 200px;
+  height: 200px;
+}
