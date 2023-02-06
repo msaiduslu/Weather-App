@@ -10,7 +10,7 @@ window.addEventListener("load",()=>{
 
 const getWeather = async (cityName) => {
   const API_KEY = "1d9e5adcad5de15797fca3e54136f073";
-  const URL = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${API_KEY}&units=imperial`;
+  const URL = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${API_KEY}&units=metric`;
 
   try {
     const response = await fetch(URL);
